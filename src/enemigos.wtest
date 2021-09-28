@@ -1,4 +1,6 @@
 import capos.*
+import artefactos.*
+import enemigos.*
 
 test "enemigos vencibles y moradas conquistables" {
 	rolando.capacidad(3)
@@ -20,8 +22,9 @@ test "poderoso" {
 	rolando.poderBase(10)
 	assert.that(erethia.esPoderoso(rolando))
 }
-/*
 
+// TODO: Descomentar cuando se soluciona
+/*
 test "artefacto fatal" {
 	rolando.capacidad(3)
 	rolando.encontrar(espada)
@@ -35,4 +38,4 @@ test "artefacto fatal" {
 	assert.notThat(rolando.tieneArmaFatal(caterina))
 	assert.throwsException({rolando.armaFatal(caterina)})
 }
-*  */
+*/

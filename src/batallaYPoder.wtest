@@ -1,4 +1,5 @@
 import capos.*
+import artefactos.*
 
 test "batalla" {
 	rolando.capacidad(3)
